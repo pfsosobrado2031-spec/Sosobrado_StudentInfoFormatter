@@ -1,0 +1,12 @@
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+section = input("Enter section: ")
+favorite_subject = input("Enter favorite subject: ")
+
+lowercasefn = first_name.lower()
+lowercasels = last_name.lower()
+uppercasefn = lowercasefn.capitalize()
+uppercaseln = lowercasels.capitalize()
+Name_Formatted = uppercasefn + " " + uppercaseln
+
+print("Formatted Output:\n","Name: ",Name_Formatted,"\nName Code:", Name_Formatted.upper(), "\nSection:", section.upper(),"\nFavorite Subject:", favorite_subject.capitalize())

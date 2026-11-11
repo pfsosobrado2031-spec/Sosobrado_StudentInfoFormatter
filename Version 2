@@ -9,4 +9,4 @@ uppercasefn = lowercasefn.capitalize()
 uppercaseln = lowercasels.capitalize()
 Name_Formatted = uppercasefn + " " + uppercaseln
 
-print("\nFormatted Output:","\nName: ",Name_Formatted,"\nName Code:", Name_Formatted.upper(), "\nSection:", section.upper(),"\nFavorite Subject:", favorite_subject.capitalize())
+print("\nFormatted Output:","\nName: ",Name_Formatted,"\nName Code:", Name_Formatted.upper(), "\nSection:", section.upper(),"\nFavorite Subject:", favorite_subject.capitalize(),"\nCharacter Count:", len(Name_Formatted))
